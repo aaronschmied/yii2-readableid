@@ -8,13 +8,13 @@ class ReadableIDBehavior extends AttributeBehavior {
      * Length of the generated ID
      * @var int
      */
-    private $length = 12;
+    public $length = 12;
 
     /**
      * Array containing the chars to use
      * @var array
      */
-    private $chars = [
+    public $chars = [
         'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'k', 'm', 'n', 'p', 'r', 's', 't', 'w',
         'x', 'y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'K', 'L', 'M', 'N', 'P',
         'Q', 'R', 'S', 'T', 'W', 'X', 'Y', 'Z', '2', '3', '4', '5', '6', '7', '8', '9',
