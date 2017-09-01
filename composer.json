@@ -1,0 +1,23 @@
+{
+    "name": "aaronschmied/yii2-readableid",
+    "description": "A helper package to automatically generate readable database ids.",
+    "keywords": ["yii2", "readableid", "active-record"],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/aaronschmied/yii2-readableid/issues",
+        "source": "https://github.com/aaronschmied/yii2-readableid"
+    },
+    "authors": [
+        {
+            "name": "Aaron Schmied",
+            "email": "aaron@pro-sales.ch"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.11"
+    },
+    "autoload": {
+        "psr-4": { "aaronschmied\\readableID\\": "" }
+    },
+}
