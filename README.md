@@ -19,6 +19,8 @@ This ID is not collision-safe. If you need an ID which is guaranteed to be colli
     return [
       'readable_id' => [
         'class' => ReadableIDBehavior::className(),
+        'length' => 10,     // Optional, defaults to 12
+        'chars' => [ ... ], // Optional
         'attributes' => [
           self::EVENT_BEFORE_INSERT => $this->primaryKey(),
         ],
